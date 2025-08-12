@@ -112,10 +112,10 @@ int main() {
     SuperPoder2 = populacao_2 + area_km_2 + PIB_2 + pontos_turisticos_2 + PIB_perCap2 + (1 / densi_Pop2);
     
     printf("\n====================================================\n");
-
-    // ESCOLHA DO ATRIBUTO NO CÓDIGO
-    // 1=População, 2=Área, 3=PIB, 4=Densidade Populacional, 5=PIB per capita, 6=Super Poder
-    int atributoEscolhido = 6; // altere aqui para escolher o atributo
+	int atributoEscolhido;
+    printf("ESCOLHA DO ATRIBUTO NO CÓDIGO"); 
+    printf(" 1=População, 2=Área, 3=PIB, 4=Densidade Populacional, 5=PIB per capita, 6=Super Poder");
+    scanf("%d",&atributoEscolhido);
 
     printf("Comparacao de cartas (Atributo: ");
 
